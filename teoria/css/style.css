@@ -1,0 +1,65 @@
+img{
+    width: 300px;
+}
+
+.link-comprar{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-comprar{
+    width: 100px;
+    background-color: green;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.btn-comprar p{
+    text-align: center;
+}
+
+p{
+    color: red;
+}
+
+#helloworld{
+    color: black;
+}
+
+.text{
+    color:blue;
+}
+
+.width-height{
+    margin: auto;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+
+#comprar{
+    color: white;
+}
+
+.padding{
+    background-color: green;
+    /*margem interna*/
+    padding: 20px;
+    /*elemento intermediário*/
+    border: 2px solid red;
+    /*margem externa*/
+    margin: 20px;
+}
+
+#alinhamento{
+    text-align: center;
+}
+
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: inline-block;
+    margin: 5px;
+}
