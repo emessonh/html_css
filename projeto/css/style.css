@@ -1,9 +1,22 @@
+/*corpo da página*/
 .inline-block{
-    height: 370px;
+    height: 500px;
     width: 30%;
     display: inline-block;
 }
 
+#logo-saas{
+    height: 40px;
+}
+
 #inscrever{
-    background-color: blue;
+    background-image: url("../img/pattern.png");
+}
+
+/*card palestrantes*/
+.palestrantes-inline{
+    display: inline-block;
+    background-color: black;
+    height: 100px;
+    width: 30%;
 }
