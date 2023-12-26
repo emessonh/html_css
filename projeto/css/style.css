@@ -1,13 +1,54 @@
+/*Altera todos os elementos da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*melhor de alterar a posição dos elementos*/
+    display: flex;
+    /*Quebra a linha em dispositos menores*/
+    flex-wrap: wrap;
+}
+/*regras gerais*/
+
+/*apresentação*/
+
+#apresentacao{
+    /*permite controlar o tamanho do lado direito*/
+    flex: 1.4;
+    padding: 2rem 4rem; /*tamanho de referência 16px*/
+    /*primeiro: cima e baixo; segundo: direita e esquerda;*/
+}
+
+#inscrever{
+    /*controla o tamanho do lado esquerdo*/
+    flex: 1;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#cabecalho img{
+    height: 50px;
+    margin-right: 0.6rem;
+}
+
 /*corpo da página*/
 .inline-block{
     height: 500px;
     width: 30%;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
-#logo-saas{
-    height: 40px;
-}
+/* #logo-saas{
+    height: 60px;
+} */
 
 #inscrever{
     background-image: url("../img/pattern.png");
@@ -15,7 +56,7 @@
 
 /*card palestrantes*/
 .palestrantes-inline{
-    display: inline-block;
+    /* display: inline-block; */
     background-color: black;
     height: 100px;
     width: 30%;
