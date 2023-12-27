@@ -22,10 +22,6 @@ body{
     /*primeiro: cima e baixo; segundo: direita e esquerda;*/
 }
 
-#inscrever{
-    /*controla o tamanho do lado esquerdo*/
-    flex: 1;
-}
 
 #cabecalho{
     display: flex;
@@ -42,22 +38,6 @@ body{
 #cabecalho img{
     height: 50px;
     margin-right: 0.6rem;
-}
-
-/* corpo da página
-.inline-block{
-    height: 500px;
-    width: 30%;
-    display: inline-block;
-} */
-
-/* #logo-saas{
-    height: 60px;
-} */
-
-#inscrever{
-    background-image: url("../img/pattern.png");
-    flex: 1rem;
 }
 
 #apresentacao h2{
@@ -110,10 +90,15 @@ body{
 .palestrantes-inline .cargo{
     font-size: 0.9rem;
 }
-/* card palestrantes
-.palestrantes-inline{
-    display: inline-block;
-    background-color: black;
-    height: 100px;
-    width: 30%;
-} */
+
+/* lado formulário */
+
+#inscrever{
+    background-image: url("../img/pattern.png");
+    /*controla o tamanho do lado esquerdo*/
+    flex: 1rem;
+    /*mostra a imagem de forma a depender do container*/
+    background-size: cover;
+    color: white;
+}
+
