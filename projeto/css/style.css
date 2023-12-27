@@ -34,17 +34,22 @@ body{
     margin-bottom: 1rem;
 }
 
+#tipo-palestra{
+    font-weight: bold;
+    color: blue;
+}
+
 #cabecalho img{
     height: 50px;
     margin-right: 0.6rem;
 }
 
-/*corpo da página*/
+/* corpo da página
 .inline-block{
     height: 500px;
     width: 30%;
-    /* display: inline-block; */
-}
+    display: inline-block;
+} */
 
 /* #logo-saas{
     height: 60px;
@@ -52,12 +57,63 @@ body{
 
 #inscrever{
     background-image: url("../img/pattern.png");
+    flex: 1rem;
 }
 
-/*card palestrantes*/
+#apresentacao h2{
+    /*altera o tamanho da fonte*/
+    font-size: 2.4rem;
+    /*tamanho máximo de largura do elemento*/
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+#date{
+   margin-bottom: 1rem; 
+}
+
+#description{
+    max-width: 500px;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+#apresentacao h3{
+    margin-bottom: 0.5rem;
+}
+
+#users-container{
+    display: flex;
+    flex-wrap: wrap;
+    /*regra de flex box para afastar elementos*/
+    gap: 5px;
+}
+
 .palestrantes-inline{
-    /* display: inline-block; */
+    border: 2px solid gray;
+    padding: 1rem;
+    width: 180px;
+    text-align: center;
+}
+
+.palestrantes-inline img{
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.palestrantes-inline .nome{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.palestrantes-inline .cargo{
+    font-size: 0.9rem;
+}
+/* card palestrantes
+.palestrantes-inline{
+    display: inline-block;
     background-color: black;
     height: 100px;
     width: 30%;
-}
+} */
