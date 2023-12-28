@@ -102,3 +102,91 @@ body{
     color: white;
 }
 
+#form-inner{
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-inner h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#form-inner p{
+    margin-bottom: 1rem;
+}
+
+#register-form{
+    display: flex;
+    /*altera a direção de posicionamento do flex para um abaixo do outro*/
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#name-container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+#register-form input{
+    /*shorthand padding, o primeiro é top e bottom e o segundo right e left*/
+    padding: 0.8rem 0.6rem;
+    /*tira a borda*/
+    border: none;
+    border-radius: 3px;
+}
+
+#email{
+    min-width: 100%;
+}
+
+
+/*altera apenas inputs do tipo submit*/
+
+#register-form input[type='submit']{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    /*simula um link*/
+    cursor: pointer;
+    /*tempo para animacao do hover aparecer*/
+    transition: 0.4s;
+}
+
+/*hover altera o stilo ao passar o mouse sobre o elemento*/
+
+#register-form input[type='submit']:hover{
+    background-color: white;
+    color: blue;
+}
+
+#benefits{
+    text-align: left;
+    /*coloca o elemento para posicionar-se no início do container*/
+    align-self: start;
+}
+
+#benefits h4{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#benefits ul{
+    list-style-position: inside;
+}
+
+#benefits li{
+    margin-bottom: 1rem;
+}
+
+
+
+
