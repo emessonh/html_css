@@ -181,10 +181,69 @@ body{
 
 #benefits ul{
     list-style-position: inside;
+    list-style:none;
 }
 
 #benefits li{
     margin-bottom: 1rem;
+}
+
+/* Responsivo */
+
+/* Media query: regra para telas de até 450px */
+@media(max-width: 450px){
+    body{
+        flex-direction: column;
+    }
+    
+    #apresentacao{
+        padding: 2rem;
+        padding-bottom: 0;
+    } 
+
+    #apresentacao h2{
+        font-size: 3rem;
+    }
+
+    #apresentacao h3{
+        font-size: 2.4rem;
+    }
+
+    #tipo-palestra, #date{
+        font-size: 1.4rem;        
+    }
+
+    #description{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .palestrantes-inline{
+        width: 100%;
+    } 
+
+    .palestrantes-inline img{
+        width: 170px;
+    }
+
+    .palestrantes-inline .nome{
+        font-size: 1.6rem;
+    }
+
+    .palestrantes-inline .cargo{
+        font-size: 1.4rem;
+    }
+
+    #form-inner{
+        margin: 1.5rem;
+    
+    }
+
+    #register-form, #register-form #name-container{
+        gap: 0.7rem;
+    }
+
+
 }
 
 
